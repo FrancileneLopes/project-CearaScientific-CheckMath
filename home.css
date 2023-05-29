@@ -55,15 +55,17 @@ header{
 
 .login-button button a{
   text-decoration: none;
-  font-weight: 200;
+  font-weight: 400;
   color: #fff;
   font-size: 1.0rem;
 }
 
 section{
   width: 100vw;
-  height: 70vw;
+  height: 100hw;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .level{
@@ -74,6 +76,7 @@ section{
   justify-content: center;
   align-items: center;
   border-radius: 30px;
+  margin: 50px 80px;
 }
 
 .level button{
@@ -81,9 +84,18 @@ section{
   height: 70px;
   background-color:orange;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.level button img{
-  width: 33px;
-  height: 83px;
+.level button a{
+  text-decoration: none;
+  font-size: 70px;
+  color: #fff;
+}
+
+.bolinha{
+  width: 20px;
+  background-color: #128200;
 }
