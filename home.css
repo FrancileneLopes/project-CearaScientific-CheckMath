@@ -61,41 +61,44 @@ header{
 }
 
 section{
-  width: 100vw;
-  height: 100hw;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.level{
-  width: 10rem;
-  height: 10rem;
-  background-color: orange;
+
+.acordion{
+  width: 80rem;
+  height:auto;
+  background-color: #b0b1b3;
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+ .acordion-item{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  border-radius: 30px;
-  margin: 50px 80px;
+  background-color: #ccc;
+  margin: 5px 0 0 0;
+  padding: 20px;
+  border-radius: 20px;
+  height: 5rem;
 }
 
-.level button{
-  width: 70px;
-  height: 70px;
-  background-color:orange;
-  border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.level button a{
+.acordion-button-header a{
   text-decoration: none;
-  font-size: 70px;
-  color: #fff;
+
 }
 
-.bolinha{
-  width: 20px;
+.nivel{
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+footer{
+  height: 10rem;
   background-color: #128200;
+  margin-top: 30px;
+  color: #fff;
 }
